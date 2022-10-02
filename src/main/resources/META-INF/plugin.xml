@@ -1,0 +1,20 @@
+<idea-plugin>
+  <id>io.github.cyklon73.greenduckprogressbar</id>
+  <name>Green Duck Progress Bar</name>
+  <version>0.0.1</version>
+  <vendor email="cyklon698@gmail.com" url="https://github.com/rougsig/duck-progress-bar">Andrey Stepankov</vendor>
+  <description>Green Duck progress bar for intellij based IDEs</description>
+
+  <idea-version since-build="173.0"/>
+
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij" />
+
+  <application-components>
+    <component>
+      <implementation-class>io.github.cyklon73.greenduckprogressbar.DuckApp</implementation-class>
+    </component>
+  </application-components>
+</idea-plugin>
