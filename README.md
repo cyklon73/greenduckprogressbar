@@ -1,6 +1,7 @@
 # duck-progress-bar
-IntelliJ Idea plugin for duck progress bar
+IntelliJ Idea plugin for green duck progress bar
 
-![Preview](https://raw.githubusercontent.com/rougsig/duck-progress-bar/master/readme.gif)
+this plugin is based on 
+
 
 [Download](https://plugins.jetbrains.com/plugin/11602-duck-progress-bar)
